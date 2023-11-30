@@ -7,9 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Core.Persistance">
-      <HintPath>..\..\..\CorePackages\Core.Packages\Core.Persistance\bin\Debug\net7.0\Core.Persistance.dll</HintPath>
-    </Reference>
+    <PackageReference Include="supabase-csharp" Version="0.13.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CorePackages\Core.Packages\Core.Persistance\Core.Persistance.csproj" />
   </ItemGroup>
 
 </Project>
