@@ -1,10 +1,10 @@
 ﻿using Core.Persistance.Repositories;
-using Postgrest.Models;
 
 namespace Domain.Entities
 {
     public class Brand : Entity<Guid>
     {
+        //[Key]
         //public Guid Id { get; set; }
         public string Name { get; set; }
 

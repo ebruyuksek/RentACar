@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="supabase-csharp" Version="0.13.7" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\CorePackages\Core.Packages\Core.Persistance\Core.Persistance.csproj" />
   </ItemGroup>
 
